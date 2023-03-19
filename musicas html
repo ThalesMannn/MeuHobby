@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Músicas</title>
+</head>
+<body>
+    <header>
+        <ul class="cabecalho__principal">
+            <a class="menu" href="./index.html">Filmes</a>
+            <a class="menu" href="./musicas.html">Músicas</a>
+            <a class="menu" href="./jogos.html">Jogos</a>
+        </ul>
+    </header>
+    <main class="container">
+        <div class="container__thales">
+            <div class="foto__thales">
+                <img class="imagem__padrao" src="./imagens/imagem_thales.jpeg" alt="foto do Thales">
+                <h1 class="titulo__foto" >Thales</h1>
+            </div>
+            <div class="bandas__thales">
+                <img class="imagem__thales" src="./imagens/korn.png" alt="capa album Korn">
+                <h1 class="titulo">Korn <br> Thoughtless</h1>
+            </div>
+            <div class="bandas__thales">
+                <img class="imagem__thales" src="./imagens/tdg.jpg" alt="capa album three days grace">
+                <h1 class="titulo">Three Days Grace <br> Human Race</h1>
+            </div>
+            <div class="bandas__thales">
+                <img class="imagem__thales" src="./imagens/trivium.jpg" alt="capa album trivium">
+                <h1 class="titulo">Trivium <br> Untill the World Goes Cold</h1>
+            </div>
+            <div class="bandas__thales">
+                <img class="imagem__thales" src="./imagens/megadeth.webp" alt="capa album megadeth">
+                <h1 class="titulo">Megadeth <br> A Tout Le Monde</h1>
+            </div>
+            <div class="bandas__thales">
+                <img class="imagem__thales" src="./imagens/steel.jpg" alt="capa album steel panther">
+                <h1 class="titulo">Steel Panther <br> Fat Girl</h1>
+            </div>
+        </div>
+        <div class="container__ester">
+            <div class="foto__ester">
+                <img class="imagem__padrao" src="./imagens/imagem_ester.jpeg" alt="foto da Ester">
+                <h1 class="titulo__foto" >Ester</h1>
+            </div>
+            <div class="bandas__ester">
+                <img class="imagem__ester" src="./imagens/paulo.jpg" alt="capa album Paulo Londra">
+                <h1 class="titulo">Paulo Londra <br> Nena Maldición</h1>
+            </div>
+            <div class="bandas__ester">
+                <img class="imagem__ester" src="./imagens/dembow.jfif" alt="capa album Danny Ocean">
+                <h1 class="titulo">Danny Ocean <br> Dembow</h1>
+            </div>
+            <div class="bandas__ester">
+                <img class="imagem__ester" src="./imagens/vuelve.jpg" alt="capa album Danny Ocean">
+                <h1 class="titulo">Danny Ocean <br> Vuelve</h1>
+            </div>
+            <div class="bandas__ester">
+                <img class="imagem__ester" src="./imagens/pronto.jfif" alt="capa album Danny Ocean">
+                <h1 class="titulo">Danny Ocean <br> Pronto</h1>
+            </div>
+            <div class="bandas__ester">
+                <img class="imagem__ester" src="./imagens/recuso.jfif" alt="capa album Danny Ocean">
+                <h1 class="titulo">Danny Ocean <br> Me Rehúso</h1>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h2 class="titulo__rodape">Essas são as músicas favoritas desses dois usuários</h2>
+    </footer>
+    
+</body>
+</html>
