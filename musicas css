@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.cabecalho__principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    background: url(./imagens/cabecalho.jpg)
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5% 2%;
+    background-color: #950101;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__thales {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    width: 50%;
+}
+
+.foto__thales {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0.1% 0;
+    padding: 1%;
+    background-color: #5D9C59;
+    border-radius: 10px;
+}
+
+.foto__ester {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0.1% 0;
+    padding: 1%;
+    background-color: #EB1D36;
+    border-radius: 10px;
+}
+
+.titulo__foto {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 0;
+    padding-left: 5%;
+
+}
+
+.imagem__padrao {
+    width: 10%;
+    border-radius: 20px;;
+}
+
+
+.container__ester {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    width: 50%;
+}
+
+
+.bandas__thales {
+    display: flex;
+    padding: 10% 0px;
+    gap: 5%;
+    border: 3px solid #5D9C59;
+    border-radius: 5px;
+}
+
+.bandas__ester {
+    display: flex;
+    padding: 10% 0px;
+    gap: 5%;
+    border: 3px solid #EB1D36;
+    border-radius: 5px;
+}
+
+.imagem__ester {
+    width: 40%;
+    border: 5px solid #950101;
+    border-radius: 5px;
+}
+
+.imagem__thales {
+    width: 40%;
+    border: 5px solid #5D9C59;
+    border-radius: 5px;
+}
+
+.titulo {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 0px;   
+}
+
+.rodape {
+    background: url(./imagens/rodape.jpg);
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo__rodape {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.2%;
+    background-color: #950101;
+    border-radius: 10px;
+}
+
+.bandas__ester:hover {
+    background-color: #EB1D36;
+}
+
+.bandas__thales:hover {
+    background-color: #539165;
+}
+
+.menu:hover {
+    background-color: #000000;
+}
+
+
+
+
