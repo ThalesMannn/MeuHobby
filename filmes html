@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Meus Favoritos</title>
+</head>
+<body>
+    <header class="container__main">
+        <ul class="cabecalho">
+            <a class="menu" href="index.html">Filmes</a>
+            <a class="menu" href="./musicas.html">Músicas</a>
+            <a class="menu" href="./jogos.html">Jogos</a>
+        </ul>
+    </header>
+    <main class="container__principal">
+        <div class="caixa__filmes">
+            <h1 class="titulo">The Batman</h1>
+            <img class="imagem" src="./imagens/batman_capa.jpg" alt="imagem batman">
+            <h3 class="assistir" >Assistir</h3>
+        </div>
+        <div class="caixa__filmes">
+            <h1 class="titulo">Liga da Justiça de Zack Snyder</h1>
+            <img class="imagem" src="./imagens/liga.jpg" alt="imagem liga da Justiça">
+            <h3 class="assistir">Assistir</h3>
+        </div>
+        <div class="caixa__filmes">
+            <h1 class="titulo">Batman vs Superman</h1>
+            <img class="imagem" src="./imagens/superman.jpg" alt="imagem batman vs superman">
+            <h3 class="assistir">Assistir</h3>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Seleção dos filmes favoritos desse usuário</h2>
+    </footer>
+    
+</body>
+</html>
