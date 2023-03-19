@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jogos.css">
+    <title>Games favoritos</title>
+</head>
+<body>
+    <header>
+        <ul class="cabecalho">
+            <a class="menu" href="./index.html">Filmes</a>
+            <a class="menu" href="./musicas.html">Músicas</a>
+            <a class="menu" href="./jogos.html">Jogos</a>
+        </ul>
+    </header>
+    <main class="container">
+        <div class="jogos">
+            <img class="imagem__div" src="./imagens/resident.jpg" alt="imagem resident evil 4">
+            <div class="textos">                
+                <h1 class="titulos">Resident Evil 4</h1>
+                <p class="paragrafos">A história de Resident Evil 4 segue o agente especial do governo dos Estados Unidos Leon S. Kennedy, que é enviado em uma missão para resgatar Ashley Graham, filha do presidente americano, que foi raptada por uma seita macabra.</p>
+                <div class="container__jogar">
+                    <a class="botao__jogar" href="#">Jogar</a>
+                </div>
+            </div>
+        </div>
+        <div class="jogos">
+            <img class="imagem__div" src="./imagens/resident_evil_5.jpg" alt="imagem resident evil 5">
+            <div class="textos">    
+                <h1 class="titulos">Resident evil 5</h1>
+                <p class="paragrafos">A trama gira em torno da investigação dos agentes da B.S.A.A. Chris Redfield e Sheva Alomar de uma ameaça terrorista em Kijuju, uma região fictícia na África. Redfield logo descobre que precisará confrontar seu passado na forma de seu velho inimigo Albert Wesker e sua ex-parceira Jill Valentine.</p>
+                <div class="container__jogar">
+                    <a class="botao__jogar" href="#">Jogar</a>
+                </div>
+            </div>
+        </div>
+        <div class="jogos">
+            <img class="imagem__div" src="./imagens/Resident_evil_6.jpg" alt="imagem resident evil 6">
+            <div class="textos">    
+                <h1 class="titulos">Resident evil 6</h1>
+                <p class="paragrafos">Com o histórico encontro dos heróis Leon S. Kennedy e Chris Redfield em um único jogo, Resident Evil 6 leva a história da série a um caso de bioterrorismo global. O agente do governo dos EUA e o Capitão da B.S.A.A vivem histórias separadas, que acabam se cruzando em alguns pontos da trama.</p>
+                <div class="container__jogar">
+                    <a class="botao__jogar" href="#">Jogar</a>
+                </div>
+            </div>
+        </div>
+        <div class="jogos">
+            <img class="imagem__div" src="./imagens/lol.jfif" alt="imagem league of legends">
+            <div class="textos">    
+                <h1 class="titulos">League Of Legends</h1>
+                <p class="paragrafos">League of Legends é um jogo de estratégia em que duas equipes de cinco poderosos Campeões se enfrentam para destruir a base uma da outra. Escolha entre mais de 140 Campeões para realizar jogadas épicas, assegurar abates e destruir torres conforme você luta até a vitória.</p>
+                <div class="container__jogar">
+                    <a class="botao__jogar" href="#">Jogar</a>
+                </div>
+            </div>
+        </div>
+        <div class="jogos">
+            <img class="imagem__div" src="./imagens/nfsu.jpg" alt="imagem need for speed underground 2">
+            <div class="textos">    
+                <h1 class="titulos">Need For Speed Underground 2</h1>
+                <p class="paragrafos">Need for Speed Underground 2 é um jogo de corrida 3D que coloca você no eletrizante mundo dos rachas em uma cidade com mais de 200 Km de asfalto. Lançado pela Electronic Arts, o jogo é uma versão melhorada de Need for Speed Underground, um grande sucesso da série.</p>
+                <div class="container__jogar">
+                    <a class="botao__jogar" href="#">Jogar</a>
+                </div>
+            </div>
+        </div>
+        <div class="jogos">
+            <img class="imagem__div" src="./imagens/guitar.png" alt="imagem guitar hero 3">
+            <div class="textos">
+                <h1 class="titulos">Guitar Hero 3</h1>
+                <p class="paragrafos">Guitar Hero III: Legends of Rock inclui batalhas contra chefes, com base na modalidade de multijogador; em três pontos durante o modo carreira, o jogador deve competir contra um personagem chefe para progredir.</p>
+                <div class="container__jogar">
+                    <a class="botao__jogar" href="#">Jogar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h1 class="rodape__titulo">Esses são os games favoritos desse usuário</h1>
+    </footer>
+    
+</body>
+</html>
